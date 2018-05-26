@@ -4,7 +4,17 @@ Displays synchronized lyrics in in the commandline with VLC python bindings
 <br /> 
 <br /> 
 
-My friend created a video based on this small python script, so you can see how it will look:
+Currently you have to modify the lrc and audio file values manually, they are at the top
+
+```python
+p = MediaPlayer(r'$AUDIO_FILE')
+f = open(r'$LRC_FILE')
+```
+I will at a later point update it so that it can be specified in a config file.
+<br /> 
+<br /> 
+
+My friend already created a video based on this small python script, have a look:
 
 <br /> 
 
